@@ -1,8 +1,6 @@
-ss-website
-==========
+SycloneStudios Main Website
+=============
 
-A short one page splash page for the SycloneStudios website.
+Dev release, More coming soon. 
 
-#http://syclonestudios.com
-
-Upcoming release
+Written permission is required by both Luke Brown and SylconeStudios team before any part of this repo can be reproduced.
