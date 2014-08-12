@@ -1,6 +1,4 @@
-SycloneStudios Main Website
+shove-website
 =============
 
-Dev release, More coming soon. 
-
-Written permission is required by both Luke Brown and SylconeStudios team before any part of this repo can be reproduced.
+A beautiful image and screenshot sharing application from desktop to the web in seconds

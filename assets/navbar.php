@@ -17,12 +17,21 @@
 					</ul>
 					<ul class="nav pull-right navbar-nav">
 						<li><a href="./">Home</a></li>
-						<li><a href="support">Portfolio</a></li>
-						<li><a href="pricing">News</a></li>
-						<li><a href="login">Team</a></li>
-						<li><a href="lol.zip">Contact</a></li>
+						<li><a href="portfolio.php">Portfolio</a></li>
+						<li><a href="news.php">News</a></li>
+						<li><a href="team.php">Team</a></li>
+						<li><a href="contact.php">Contact</a></li>
 					</ul>
 				</div>
 			</div><!--CONTAINER-->
 		</div><!--CONTAINER AGAIN-->
 	</div><!--NAVBAR-->
+
+	<script type="text/javascript">
+		$('img').bind('contextmenu', function(e) {
+			return false;
+		});
+		$('img').on('dragstart', function(event) { 
+			event.preventDefault(); 
+		});
+	</script>

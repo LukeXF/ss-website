@@ -86,6 +86,32 @@ text-decoration: none;
 	float: left;
 	margin-top: -15px;
 }
+#smallheader{
+	padding: 50px 0 50px;
+	color: #fff;
+	background-image:url('http://syclonestudios.com/assets/img/background.png');
+}
+#smallheader h1{
+	margin-bottom: 10px;
+	margin-top: 120px;
+	font-family: "Lato",sans-serif;
+	font-weight: 300;
+	font-size: 50px;
+}
+#smallheader h1:before{
+	content: "Home  //  "
+}
+#smallheader .btn-success {
+	padding: 15px 30px;
+	margin-bottom: 5px;
+}
+#smallheader .logo{
+	display: block;
+	margin-top: 80px;
+	width: 316px;
+	height: 321px;
+	margin-bottom: -101px;
+}
 
 #header{
 	padding: 100px 0 100px;
@@ -128,7 +154,10 @@ text-decoration: none;
 }
 #header .logo{
 	display: block;
-	margin-top:60px;
+	margin-top: 80px;
+	width: 316px;
+	height: 321px;
+	margin-bottom: -101px;
 }
 
 
@@ -171,8 +200,6 @@ text-decoration: none;
 
 
 
-6303a5
-
 
 /* ////////////////////////////////////
 	SECOND SECTION STYLING
@@ -189,6 +216,9 @@ text-align: center;
 color: #808080;
 margin: 2rem;
 background-color: #6303a5;
+background-repeat: repeat-x;
+background-position: center center;
+margin: 0px !important;
 }
 
 #second, #third {
@@ -219,6 +249,31 @@ background-color: #6303a5;
 	margin-top: 10px;
 }
 
+.leftcon{
+  padding-right: 7.5px;
+
+}
+
+.rightcon{
+	padding-left: 7.5px;
+}
+
+.purplea > h1 {
+	position: absolute;
+	margin-top: -43px;
+	color: #fff;
+	text-transform: uppercase;
+	padding-left: 10px;
+}
+
+.video > h1 {
+	position: absolute;
+	margin-top: -63px;
+	color: #fff;
+	text-transform: uppercase;
+	padding-left: 10px;
+}
+
 .video {
 	border-style:solid;
 	border-width:50px 10px 10px 10px;
@@ -229,6 +284,53 @@ background-color: #6303a5;
 	padding-bottom: 20px;
 }
 
+.video > div > p {
+	padding: 5px;
+	padding-right: 13px;
+	text-align: right;
+}
+
+.maintitle > h2 {
+	font-size: 20px !important;
+	color: #6216A3;
+	text-align: left;
+	font-weight: bold;
+}
+.maintitle > h3 {
+	color: #929292;
+	font-size: 12px !important;
+	text-align: left;
+	margin-top: -8px;
+	margin-left: -1px;
+	font-weight: 300;
+	font-style: italic;
+}
+
+.twitter {
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.twitter > div > p {
+	color: #fff;
+	font-size: 27px;
+	padding-top: 10px;
+}
+
+.twitter > div > h5 {
+	color: rgba(255, 255, 255, 0.81);
+	font-size: 20px;
+	margin-top: -23px;
+	text-align: right;
+	padding-right: 26px;
+}
+
+
+.arrowside {
+	float: right;
+	right: 0;
+	margin-right: 24px;
+}
 /* ////////////////////////////////////
 	EVERYTHING ELSE
 //////////////////////////////////// */
@@ -265,7 +367,7 @@ pre.pre-show{
 }
 /* Content */
 .table th, .table td {
-padding: 8px 12px;
+	padding: 8px 12px;
 }
 
 /* Footer */
