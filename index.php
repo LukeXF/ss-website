@@ -17,7 +17,7 @@
 				<div class="col-md-9">
 
 					<h1>Checkout our latest Applications</h1>
-					<p>Syclone Studios is always working hard creating beatiful Apps that can be enjoyable for large audience. We create apps for both Andriod and Apply device!</p>
+					<p>Syclone Studios is always working hard creating beatiful Apps that can be enjoyable for large audience. We create apps for both Andriod and Apple device!</p>
 				<button href="#Login" class="btn btn-default button-of-sex outline">Application</button>
 				</div>
 			</div><!--ROW-->
