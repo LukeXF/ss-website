@@ -16,44 +16,96 @@
 		</div><!--CONTAINER-->
 	</div><!--HEADER-->
 
+
+
+<?php
+$clients=array(
+	"Chroma Hills",
+	"Sanity",
+	".",
+	".",
+	"."
+);
+?>
+
+
 	<div id="second">
 		<div class="container">
-			<div class="col-md-4 app">
+			<div class="row">
+
+				<div class="col-md-12 portfolio"><div class="portfolio-bg" id="<?php echo $clients[0] ?>">
 				
-				<img src="./assets/img/app1.png" alt="Syclone Studios" width="100%">
-				<h3>Design</h3>
-				<p>
-					At the first stage we plan <br>
-					and create variety of mockups <br>
-					The one agreed final design.
-				</p>
+					<h1>
+						<?php echo $clients[0] ?>
+					</h1>
+					<p>
+						Hey, we make stuff bitches
+					</p>
+					<button href="#Login" class="btn btn-default button-of-sex outline">Portfolio</button>
+
+				</div></div>
 
 			</div>
-			<div class="col-md-4 app">
+			<div class="row">
+
+				<div class="col-md-6 portfolio"><div class="portfolio-bg" id="<?php echo $clients[1] ?>">
 				
-				<img src="./assets/img/app1.png" alt="Syclone Studios" width="100%">
-				<h3>Develop</h3>
-				<p>
-					Then we convert the design<br>
-					into a reality, developed quickly <br>
-					and efficiently at every level.
-				</p>
+				
+					<h1>
+						<?php echo $clients[1] ?>
+					</h1>
+					<p>
+						Hey, we make stuff bitches
+					</p>
+					<button href="#Login" class="btn btn-default button-of-sex outline">Portfolio</button>
+
+				</div></div>
+
+				<div class="col-md-6 portfolio"><div class="portfolio-bg" id="<?php echo $clients[2] ?>">
+				
+				
+					<h1>
+						<?php echo $clients[2] ?>
+					</h1>
+					<p>
+						Hey, we make stuff bitches
+					</p>
+					<button href="#Login" class="btn btn-default button-of-sex outline">Portfolio</button>
+
+				</div></div>
 
 			</div>
-			<div class="col-md-4 app">
+			<div class="row">
+
+				<div class="col-md-6 portfolio"><div class="portfolio-bg" id="<?php echo $clients[3] ?>">
 				
-				<img src="./assets/img/app1.png" alt="Syclone Studios" width="100%">
-				<h3>Distribute</h3>
-				<p>
-					Finally, once the client is<br>
-					happy we will then distribute to a<br>
-					multitude of platforms.
-				</p>
+				
+					<h1>
+						<?php echo $clients[3] ?>
+					</h1>
+					<p>
+						Hey, we make stuff bitches
+					</p>
+					<button href="#Login" class="btn btn-default button-of-sex outline">Portfolio</button>
+
+				</div></div>				
+
+				<div class="col-md-6 portfolio"><div class="portfolio-bg" id="<?php echo $clients[4] ?>">
+				
+				
+					<h1>
+						<?php echo $clients[4] ?>
+					</h1>
+					<p>
+						Hey, we make stuff bitches
+					</p>
+					<button href="#Login" class="btn btn-default button-of-sex outline">Portfolio</button>
+
+				</div></div>
 
 			</div>
 		</div>
 	</div>
-
 
 
 	<?php require './assets/footer.php'; ?>
