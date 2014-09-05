@@ -20,14 +20,14 @@
 	<div id="third">
 		<div class="container">
 			<?php include 'assets/modules/recent-creations.php'; ?>
-			<?php include 'assets/modules/recent-news.php'; ?>
+			<?php /* include 'assets/modules/recent-news.php'; */ ?>
 		</div>
 	</div>
 
 
 	<div id="third">
 		<div class="container">
-			<?php include 'assets/modules/latest-video.php'; ?>
+			<?php /* include 'assets/modules/latest-video.php'; */ ?>
 		</div>
 	</div>
 
